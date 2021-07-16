@@ -1,4 +1,4 @@
-# **_Digital Innovation: Expert class - Desenvolvendo umsistema de gerenciamento de pessoas em API REST com Spring Boot_**
+# **_Digital Innovation: Desenvolvendo umsistema de gerenciamento de pessoas em API REST com Spring Boot_**
 <br><br>
 ## Desenvolvido por: Leonardo Messias
 <br>
