@@ -33,7 +33,11 @@ public class PessoaController {
     }
     @GetMapping("/{id}")
     public PessoaDTO findById(@PathVariable  Long id) throws PessoaNotFoundException {
-        return pessoaService.findById(id);
+        return pessoaService.findById(id); }
 
+    @DeleteMapping("/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void deleteById(@PathVariable Long id) throws PessoaNotFoundException {
+        pessoaService.delete(id);
     }
 }
