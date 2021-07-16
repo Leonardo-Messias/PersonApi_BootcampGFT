@@ -28,7 +28,7 @@ public class PessoaDTO {
 
     @NotEmpty
     @CPF
-    private int cpf;
+    private String cpf;
 
     private String dataNasc;
 

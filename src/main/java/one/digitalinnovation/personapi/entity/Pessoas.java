@@ -24,7 +24,7 @@ public class Pessoas {
     private String ultimoNome;
 
     @Column(nullable = false, unique = true)
-    private int cpf;
+    private String cpf;
 
 
 //    private String endereo;
