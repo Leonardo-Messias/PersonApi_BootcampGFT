@@ -31,6 +31,10 @@ Após executar o comando acima, basta apenas abrir o seguinte endereço e visual
 <br><br>
 Pré-requisitos para a execução do projeto:
 
-_.Java 11 (Para executar, alterar para SDK 11 (jbr-11 JetBrains Runtime version 11.1.10). Não utilizar versões superiores ou inferiores.
+_.Java 11 (Para executar, alterar para SDK 11 (jbr-11 JetBrains Runtime version 11.1.10).
+<br>
+.Não utilizar versões superiores ou inferiores.
+<br>
 .Maven 3.6.3 ou versões superiores.
+<br>
 .Intellj IDEA Community Edition ou outra IDE._
