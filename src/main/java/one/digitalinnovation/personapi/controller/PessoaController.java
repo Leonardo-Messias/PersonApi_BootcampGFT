@@ -42,8 +42,8 @@ public class PessoaController {
     }
 
     @DeleteMapping("/{id}")
-    @ResponseStatus(HttpStatus.NO_CONTENT)
+       @ResponseStatus(HttpStatus.NO_CONTENT)
     public void deleteById(@PathVariable Long id) throws PessoaNotFoundException {
-        pessoaService.delete(id);
+        pessoaService.deleteById(id);
     }
 }

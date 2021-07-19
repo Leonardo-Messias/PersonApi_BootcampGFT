@@ -41,7 +41,7 @@ public class PessoaService {
         return pessoaMapper.toDto(pessoas);
     }
 
-    public void delete(Long id) throws PessoaNotFoundException {
+    public void deleteById(Long id) throws PessoaNotFoundException {
         verifyExists(id);
         pessoaRepository.deleteById(id);
     }
@@ -64,4 +64,12 @@ public class PessoaService {
                 .message(message+id)
                 .build();
     }
+    private MessageResponseDTO createMessageResponses(Long id, String message) {
+        return MessageResponseDTO
+                .builder()
+                .message(message+id)
+                .build();
+    }
+
+
 }

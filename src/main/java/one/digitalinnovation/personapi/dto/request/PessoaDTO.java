@@ -5,6 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.hibernate.validator.constraints.br.CPF;
+
 import javax.validation.Valid;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
@@ -29,6 +30,10 @@ public class PessoaDTO {
     @NotEmpty
     @CPF
     private String cpf;
+
+    @Valid
+    @NotEmpty
+    private List<EndDTO> enderecos;
 
     private String dataNasc;
 

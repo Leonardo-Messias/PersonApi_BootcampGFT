@@ -26,11 +26,10 @@ public class Pessoas {
     @Column(nullable = false, unique = true)
     private String cpf;
 
-
-//    private String endereo;
-
-
     private LocalDate dataNasc;
+
+    @OneToMany(fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE})
+    private List<Endereco> enderecos;
 
     @OneToMany(fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE})
     private List<Telefone> telefones;
