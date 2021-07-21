@@ -9,10 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>one.digitalinnovation</groupId>
+	<developers>Leonardo Messias</developers>
 	<artifactId>personapi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>personapi</name>
-	<description>Person API developed for digital innovation one course</description>
+	<description>API controle de Pessoas</description>
 
 	<properties>
 		<java.version>11</java.version>
